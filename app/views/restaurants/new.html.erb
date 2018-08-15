@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <h4> add new Restaurant</h4>
+<%= simple_form_for @restaurant, class: "form-group" do |f| %>
+  <%= f.input :name, placeholder: "name of restaurant", class: "form-control" %>
+  <%= f.input :address, placeholder: "address", class: "form-control"  %>
+  <%= f.input :phone_number, placeholder: "phone number", class: "form-control" %>
+  <%= f.input :category, placeholder: "choose category", class: "form-control"  %>
+  <%= f.button :submit, class: "btn btn-primary" %>
+<% end %>
+</div>
+</div>
+</div>
